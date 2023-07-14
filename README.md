@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![ScreenShot](screenshot.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: https://www.frontendmentor.io/solutions/responsive-component-using-tailwindcss-bK09BzMNWC
+-   Live Site URL: https://dlee1993.github.io/FEM-results_summary_component/
 
 ## My process
 
@@ -60,5 +60,4 @@ I am going to continue to use tailwind to grow and develop my understanding. I a
 
 ## Author
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--   Twitter - [@yourusername](https://www.twitter.com/yourusername)
+-   Frontend Mentor - https://www.frontendmentor.io/profile/DLee1993
