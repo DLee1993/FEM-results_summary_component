@@ -9,7 +9,7 @@ const App = () => {
                 id="results"
                 className="w-72 h-96 flex justify-evenly items-center flex-col rounded-b-xl sm:rounded-3xl bg-gradient-to-t from-lightRoyalBlue via-lightRoyalBlue to-lightSlateBlue"
             >
-                <p className="text-paleBlue/70 font-bold">Your Result</p>
+                <h2 className="text-paleBlue/70 font-bold">Your Result</h2>
 
                 <div
                     id="circle"
@@ -37,16 +37,16 @@ const App = () => {
                     id="summaryContent"
                     className="w-full h-full flex justify-evenly items-start flex-col max-w-[90%]"
                 >
-                    <p id="title" className="w-full max-w-[90%] mx-auto text-left font-extrabold">
+                    <h2 id="title" className="w-full max-w-[90%] mx-auto text-left font-extrabold">
                         Summary
-                    </p>
+                    </h2>
                     <ul className="w-full max-w-[90%] mx-auto">
                         <li className="w-full h-10 rounded bg-lightRed/5 text-base py-6 px-2 flex justify-start items-center mb-2">
                             <ReactionSVG />
-                            <p id="title" className="ml-2 font-semibold text-lightRed/75">
+                            <p id="reaction" className="ml-2 font-semibold text-lightRed/75">
                                 Reaction
                             </p>
-                            <span id="rating" className="ml-auto">
+                            <span id="reaction" className="ml-auto">
                                 <span className="font-bold">80</span>
                                 <span className="text-darkGrayBlue/50 mx-1">/</span>
                                 <span className="text-darkGrayBlue/50 font-semibold">100</span>
@@ -54,10 +54,10 @@ const App = () => {
                         </li>
                         <li className="w-full h-10 rounded bg-orangeYellow/10 text-base py-6 px-2 flex justify-start items-center mb-2">
                             <MemorySVG />
-                            <p id="title" className="ml-2 font-semibold text-orangeYellow/75">
+                            <p id="memory" className="ml-2 font-semibold text-orangeYellow/75">
                                 Memory
                             </p>
-                            <span id="rating" className="ml-auto">
+                            <span id="memory" className="ml-auto">
                                 <span className="font-bold">92</span>
                                 <span className="text-darkGrayBlue/50 mx-1">/</span>
                                 <span className="text-darkGrayBlue/50 font-semibold">100</span>
@@ -65,10 +65,10 @@ const App = () => {
                         </li>
                         <li className="w-full h-10 rounded bg-greenTeal/10 text-base py-6 px-2 flex justify-start items-center mb-2">
                             <VerbalSVG />
-                            <p id="title" className="ml-2 font-semibold text-greenTeal/75">
+                            <p id="verbal" className="ml-2 font-semibold text-greenTeal/75">
                                 Verbal
                             </p>
-                            <span id="rating" className="ml-auto">
+                            <span id="verbal" className="ml-auto">
                                 <span className="font-bold">61</span>
                                 <span className="text-darkGrayBlue/50 mx-1">/</span>
                                 <span className="text-darkGrayBlue/50 font-semibold">100</span>
