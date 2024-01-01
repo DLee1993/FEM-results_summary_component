@@ -1,10 +1,11 @@
 import { MemorySVG, VerbalSVG, VisualSVG, ReactionSVG } from "./components/SVG-Components";
 const App = () => {
     return (
-        <section
+        <main
             id="resultsSummary"
             className="flex justify-center items-center flex-col sm:flex-row"
         >
+            <h1 className="text-4xl font-bold text-center sr-only">Results summary component</h1>
             <section
                 id="results"
                 className="w-72 h-96 flex justify-evenly items-center flex-col rounded-b-xl sm:rounded-3xl bg-gradient-to-t from-lightRoyalBlue via-lightRoyalBlue to-lightSlateBlue"
@@ -46,7 +47,7 @@ const App = () => {
                             <p id="reactionText" className="ml-2 font-semibold text-lightRed/75">
                                 Reaction
                             </p>
-                            <span id="reaction" className="ml-auto">
+                            <span id="reaction_rating" className="ml-auto">
                                 <span className="font-bold">80</span>
                                 <span className="text-darkGrayBlue/50 mx-1">/</span>
                                 <span className="text-darkGrayBlue/50 font-semibold">100</span>
@@ -57,7 +58,7 @@ const App = () => {
                             <p id="memoryText" className="ml-2 font-semibold text-orangeYellow/75">
                                 Memory
                             </p>
-                            <span id="memory" className="ml-auto">
+                            <span id="memory_rating" className="ml-auto">
                                 <span className="font-bold">92</span>
                                 <span className="text-darkGrayBlue/50 mx-1">/</span>
                                 <span className="text-darkGrayBlue/50 font-semibold">100</span>
@@ -68,7 +69,7 @@ const App = () => {
                             <p id="verbalText" className="ml-2 font-semibold text-greenTeal/75">
                                 Verbal
                             </p>
-                            <span id="verbal" className="ml-auto">
+                            <span id="verbal_rating" className="ml-auto">
                                 <span className="font-bold">61</span>
                                 <span className="text-darkGrayBlue/50 mx-1">/</span>
                                 <span className="text-darkGrayBlue/50 font-semibold">100</span>
@@ -79,7 +80,7 @@ const App = () => {
                             <p id="visualText" className="ml-2 font-semibold text-cobaltBlue/75">
                                 Visual
                             </p>
-                            <span id="rating" className="ml-auto">
+                            <span id="visual_rating" className="ml-auto">
                                 <span className="font-bold">72</span>
                                 <span className="text-darkGrayBlue/50 mx-1">/</span>
                                 <span className="text-darkGrayBlue/50 font-semibold">100</span>
@@ -91,7 +92,7 @@ const App = () => {
                     </button>
                 </section>
             </section>
-        </section>
+        </main>
     );
 };
 
