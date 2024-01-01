@@ -34,6 +34,7 @@ const App = () => {
                 id="summary"
                 className="w-80 h-96 flex justify-center items-center sm:rounded-r-3xl sm:shadow-[30px_25px_20px_-20px_rgba(200,199,255,.4)]"
             >
+                <h2 className="text-4xl font-bold text-center sr-only">Results summary</h2>
                 <section
                     id="summaryContent"
                     className="w-full h-full flex justify-evenly items-start flex-col max-w-[90%]"
